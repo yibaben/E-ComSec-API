@@ -2,7 +2,6 @@ package com.bennett.livecodingv2.controller;
 
 import com.bennett.livecodingv2.model.AuthRequest;
 import com.bennett.livecodingv2.service.Services;
-import io.swagger.v3.oas.models.responses.ApiResponse;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

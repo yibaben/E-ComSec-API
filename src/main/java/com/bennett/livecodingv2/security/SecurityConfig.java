@@ -38,7 +38,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/api/v1/create","/api/auth/login","/swagger-ui/index.html")
+                .antMatchers("/api/v1/create","/api/auth/login","/swagger-ui/index.html#")
                 .permitAll()
                 .anyRequest().authenticated()
                 .and()
